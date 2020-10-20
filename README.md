@@ -11,7 +11,7 @@ The transfer matrix method (TMM) for a multi-layer structure is implemented usin
 Number of layers that compose the microcavity structure, their thickness, and the complex dielectric functions of all materials involved over the wavelengths of interest. 
 
 **Output**
-For a given input field incidence angle and field polarization (TM or TE), the code computes the transmission, reflection and absorption spectra over a frequency region of interest. Dispersion curves are obtained by varying the incidence angle. 
+For a given input field incidence angle and field polarization (TM or TE), the code computes the transmission, reflection and absorption spectra over a frequency region of interest. Dispersion curves are obtained by varying the angle of incidence. 
 
 ## Matlab folder
 
