@@ -85,3 +85,19 @@ def sellmeierIRMOF1(wavelength):
     B1 = 0.1474
     C1 = 7.67e+4
     return A+(B1*wavelength**2/(wavelength**2-C1))
+
+def sellmeierPMMA(wavelength):
+    """
+    wavelength: Wavelength in nanometers 
+
+    Outputs dielectric constant (relative permittivity) for the given wavelength
+    """  
+	A=1
+    B1 = 1.1819
+    C1 = 0.011313
+    return A+(B1*wavelength**2/(wavelength**2-C1))
+
+
+
+
+
