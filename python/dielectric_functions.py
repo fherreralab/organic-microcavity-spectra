@@ -74,3 +74,14 @@ def sellmeier(wavelength):
     return 1+(B1*wavelength**2/(wavelength**2-C1**2))+\
            (B2*wavelength**2/(wavelength**2-C2**2))+\
            (B3*wavelength**2/(wavelength**2-C3**2))
+
+def sellmeierIRMOF1(wavelength):
+    """
+    wavelength: Wavelength in nanometers 
+
+    Outputs dielectric constant (relative permittivity) for the given wavelength
+    """  
+    A=1.292
+    B1 = 0.1474
+    C1 = 7.67e+4
+    return A+(B1*wavelength**2/(wavelength**2-C1))
